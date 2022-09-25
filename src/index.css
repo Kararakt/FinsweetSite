@@ -1,0 +1,1695 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0rem; 
+    padding: 0rem;
+    box-sizing:border-box;
+}
+.background--Header{
+    background-color: var(--purple);
+}
+.p--Header{
+    color: white;
+    border: 1px solid var(--gray);
+    border-radius: 1.5rem;
+    padding: 1rem 3rem;
+    margin-left:1rem;
+    font-size: 1.125rem;
+}
+.p--Header:active,
+.p--Header:hover{
+    background-color: white;
+    color: var(--purple);
+}
+.ul--Header{
+    color: var(--gray);
+    overflow: hidden;
+}
+.ul--Header a:hover
+{
+    color: white;
+}
+a.router-link-active,
+li.router-link-active > a {
+  color: white;
+}
+
+.main-div--HomePage{
+    background-color: var(--purple);
+}
+.p--HomePage{
+    color: var(--gray);
+}
+.button--HomePage{
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.125rem;
+}
+.button--HomePage:hover,
+.button--HomePage:active{
+border: 1px solid var(--secondyellow);
+background-color: var(--secondyellow);
+}
+.image--HomePage{
+    height: 24rem ;
+    width: 45rem ;
+}
+
+.second-p--HomePage{
+    color: var(--thirdgray);
+}
+.third-p--HomePage{
+    color: var(--blue);
+}
+.second-image--HomePage{
+    height: 6.25rem ;
+    width:  6.25rem;
+}
+.image--OurProject{
+    height: 50rem ;
+    width: auto;
+}
+.second-image--OurProject{
+    height: 24rem;
+    width: auto;
+}
+.third-image--OurProject{
+    height: 23.5rem;
+    width: auto;
+}
+.image-text--OurProjectSection{
+    height: 50rem;
+    background-color: var(--purplelight);
+    padding: 1rem 3.5rem;
+    padding-bottom: 6rem;
+}
+.icon-div--OurProjectSection{
+    color: var(--yellow);
+}
+.second-image-text--OurProjectSection{
+    height: 24rem;
+    width: 30.931rem;
+    background-color: var(--purplelight);
+    padding: 1rem 6rem;
+    padding-bottom: 5rem;
+}
+.background-first{
+    background-color: var(--ent);
+}
+.background-second{
+    background-color: var(--secondgray);
+}
+.background-third{
+    background-color: #edeef1;
+}
+.background-fouth{
+    background-color: var(--accent);
+}
+.background-fifth{
+    background-color: var(--lightyellow);
+}
+
+.card--Features{
+    padding:3.5rem 2.5rem;
+}
+
+.collapsible {
+    padding: 0.5rem 0rem;
+  }
+  
+  .content {
+    padding: 0 2rem;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid white;
+  }
+  .collapsible:after {
+    content: "+";
+    font-size: 1.5rem;
+    color: var(--thirdgray);
+    float: right;
+    margin-left: 0.3rem;
+  }
+  .active:after {
+    content: "x";
+    font-size: 1.3rem;
+  }
+.text-bg--AskQuestionSection{
+    background-color: var(--purplelight);
+}
+.Form--AskedQuestionSection > .el-form-item .el-input__wrapper{
+    background: transparent;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0 1px var(--thirdgray);
+    border-radius: 0.5rem;
+}
+.Form--AskedQuestionSection > .el-form-item .el-input__wrapper.is-focus,
+.Form--AskedQuestionSection > .el-form-item .el-input__wrapper:hover{
+    box-shadow: 0 0 0 1px white;
+}
+.Form--AskedQuestionSection > .el-form-item .el-input__wrapper .el-input__inner{
+    color: white;
+}
+.Form--AskedQuestionSection > .el-form-item .el-input__wrapper .el-input__inner .el-form-item__error{
+    display: flex;
+    margin-top: 10rem;
+}
+.Form--AskedQuestionSection > .el-form-item .el-input__inner::placeholder{
+color: white;
+}
+.button--AskQuestionSection > .el-form-item__content .el-button{
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+    font-size: 1.25rem;
+    width: 100%;
+    color: black;
+}
+.button--AskQuestionSection > .el-form-item__content .el-button span{
+    font-size: 1.125rem;
+}
+.button--AskQuestionSection > .el-form-item__content .el-button:active,
+.button--AskQuestionSection > .el-form-item__content .el-button:hover
+{
+    border: 1px solid var(--secondyellow);
+    background-color: var(--secondyellow);
+}
+.border--AboutUs{
+   border-top:7px solid var(--pink) ;
+    border-style:dotted;
+    width: 100%;
+}
+.overlay--AboutUs {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(255, 255, 255, 0),
+      rgba(82, 57, 250)
+    );
+    border-radius: 15rem;
+  }
+.div-for--AboutUs:hover .overlay--AboutUs{
+    height: 100%;
+}
+.text--AboutUs{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button--Pricing{
+    border-radius: 2rem;
+    padding: 1.3rem 6rem;
+    font-size: 1.125rem;
+}
+.button--Pricing:hover{
+    background-color: #1C1E53;
+}
+.card--Pricing{
+    border-radius: 1.5rem;
+}
+.second-button--Pricing{
+    border-radius: 2rem;
+    padding: 1.3rem 6rem;
+    font-size: 1.125rem;
+}
+.second-button--Pricing:hover{
+    background-color: var(--secondyellow);
+}
+.content--Pricing {
+    padding: 0 2rem;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid var(--secondpink);
+  }
+  .content--Features {
+    padding: 0 2rem;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid var( --lightwhite);
+  }
+  .main-div--TabsSection > .el-tabs,
+  .main-div--TabsSection > .el-tabs .el-tabs__header,
+  .main-div--TabsSection > .el-tabs .el-tabs__item.is-top.is-active,
+  .main-div--TabsSection > .el-tabs .el-tabs__item.is-top{
+    border: none;
+  
+  } 
+  .main-div--TabsSection > .el-tabs .el-tabs__item.is-top.is-active{
+    color: var(--blue);
+    background-color: transparent;
+  }
+  .main-div--TabsSection > .el-tabs .el-tabs__item.is-top{
+    color: var(--purp);
+  }
+  .main-div--TabsSection > .el-tabs .el-tabs__content   {
+    background-color: var(--secondgray);
+    padding: 1rem 0rem;
+  }
+  .main-div--TabsSection > .el-tabs .el-tabs__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-div--TabsSection > .el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+    color: var(--blue);
+  }
+.border--ReadCaseStudies{
+    border-bottom: 1px solid var(--gray);
+}
+.div--ReadCaseStudies > .el-tabs,
+.div--ReadCaseStudies > .el-tabs .el-tabs__item.is-top,
+.div--ReadCaseStudies > .el-tabs .el-tabs__header
+{
+    border: none;
+    background-color: white;
+}
+.div--ReadCaseStudies > .el-tabs .el-tabs__item.is-top{
+    color: var(--purp);
+  }
+  .div--ReadCaseStudies > .el-tabs .el-tabs__item.is-top{
+    color: var(--thirdgray);
+  }
+.div--ReadCaseStudies > .el-tabs .el-tabs__item.is-top.is-active{
+    color: var(--blue);
+  }
+.div--ReadCaseStudies > .el-tabs .el-tabs__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div--ReadCaseStudies > .el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover{
+    color: var(--blue);
+  }
+  .div-form--ContactUs{
+    border-radius: 1.5rem;
+  }
+  .form--ContactUs > .el-form-item .el-input__wrapper {
+    background: transparent;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0 1px var(--gray);
+    border-radius: 0.5rem;
+  }
+  .form--ContactUs > .el-form-item .el-input__inner,
+  .second-form--ContactUs > .el-form-item .el-textarea__inner{
+    color: var(--purp);
+  }
+.form--ContactUs > .el-form-item .el-input__wrapper.is-focus {
+    box-shadow: 0 0 0 1px var(--purp) !important ;
+}
+.form--ContactUs > .el-form-item .el-select .el-input.is-focus .el-input__wrapper{
+    box-shadow: 0 0 0 1px var(--purp) !important ;
+}.form--ContactUs > .el-form-item .el-input__wrapper::placeholder{
+    color: black;
+}
+.form--ContactUs > .el-form-item .el-input__wrapper:hover,
+.form--ContactUs > .el-form-item .el-select .el-input__wrapper:hover,
+.second-form--ContactUs > .el-form-item .el-textarea__inner:hover{
+    box-shadow: 0 0 0 1px var(--purp)
+}
+.form--ContactUs > .el-form-item .el-select{
+    width: 100%;
+}
+.second-form--ContactUs > .el-form-item .el-textarea .el-input__count{
+    background-color: transparent;
+    padding-bottom: 1rem;
+}
+
+.second-form--ContactUs > .el-form-item .el-textarea__inner{
+    background: transparent;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 0 1px var(--gray);
+    border-radius: 0.5rem;
+}
+.second-form--ContactUs > .el-form-item .el-textarea__inner::placeholder{
+    color: black;
+}
+.second-form--ContactUs > .el-form-item .el-form-item__error,
+.form--ContactUs > .el-form-item .el-form-item__error{
+    font-size: 1rem;
+}
+.button-ContactUs > .el-form-item__content .el-button{
+    border-radius: 2rem;
+    padding: 2rem 5rem;
+    background-color: var(--purp);
+    color: white;
+    
+}
+.button-ContactUs > .el-form-item__content .el-button:hover{
+    background-color: #1C1E53;
+}
+.button-ContactUs > .el-form-item__content .el-button span{
+    font-size: 1.125rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+    .second-div--HomePage{
+        margin-right:  1.5rem;
+        margin-left:  1rem;
+        display: flex;
+        gap:4rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text--HomePage{
+        font-size: 2.5rem;
+    }
+    .button--HomePage{
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+    .btn-icon--HomePage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .image--HomePage{
+        width: auto;
+        height: auto;
+        margin-right: 2rem;
+    }
+    .div--HomeWeWorkSection{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1.5rem;
+        margin-left:  1rem;
+        gap:4rem
+    }
+    .second-div--HomeWeWorkSection{
+        display: flex;
+        flex-direction: column;
+        justify-items: left;
+        align-self: start;
+        margin: auto;
+    }
+    .text--HomeWeWorkSection{
+        font-size: 2.5rem;
+    }
+    .text--FeaturesSection{
+        font-size: 2.5rem;
+        line-height: 3.3rem;
+    }
+    .card--FeaturesSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .div--AboutUsSection{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1.5rem;
+        margin-left:  1rem;
+        padding-bottom: 10rem;
+        
+    }
+    .text--AboutUsSection{
+        font-size: 2.5rem;
+    }
+    .carousel--AboutUsSection{
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+  
+    .second-text--AboutUsSection{
+        font-size: 1.5rem;
+    }
+    .div-AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        gap:3rem;
+    }
+    .text-AboutUs{
+        font-size: 2.5rem;
+    }
+    .second-div--AboutUs{
+        margin-right:  1rem;
+        margin-left:  1rem;
+        padding-bottom: 6rem;
+    }
+    .two-cards--AboutUs{
+        display: flex;
+        flex-direction: column;
+        gap:2rem
+    }
+    .third-div--AboutUs{
+        padding-top: 6rem;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .second-text--AboutUs{
+        font-size: 2.5rem;
+    }
+    .four-cards--AboutUs{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourth-div--AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+
+    }
+    .fifth-div--AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .third-text--AboutUs{
+        font-size: 2.5rem;
+    }
+    .three-cards--ThreeCards{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-logos-div--AboutUs{
+       display: grid;
+       grid-template-columns: repeat(2, minmax(0, 1fr));
+       margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .fourth-text--AboutUs{
+        font-size: 2.5rem;
+    }
+    .four-people-cards--AboutUs{
+        display: flex;
+        flex-direction: column;
+    }
+    .div--Features{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap:4rem;
+    }
+    .text-Features{
+        margin-left: 0.5rem;
+        font-size: 2.5rem;
+    }
+    .description--Features{
+        margin-left: 0.5rem;
+    }
+    .btn--Features{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image--Features{
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    .second-div--Features{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .space-div--Features{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        gap:4rem;
+    }
+    .second-space-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .collapse-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Features{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .main-div-collapse--Features{
+      margin: 0rem 0.5rem
+    }
+    .collapse-span--Features{
+        padding-left: 0rem;
+        
+    }
+    .second-text--Features{
+    text-align: center;
+    font-size: 1rem;
+    }
+    .title--Pricing{
+        font-size: 2.5rem;
+    }
+    .text-Pricing{
+        margin-right:  1.5rem;
+        margin-left:  1rem;
+    }
+    .three-cards--Pricing{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .collapse-div--Pricing{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Pricing{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .main-div-collapse--Pricing{
+        margin: 0rem 0.5rem
+    }
+    .collapse-span--Pricing{
+        padding-left: 0rem;
+    }
+    .second-text--Pricing{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .text-PrivacyPolicy{
+        font-size: 2.5rem;
+    }
+    .text--PrivacyPolicy{
+        margin: 0rem 1rem;
+    }
+    .text--BlogPage,
+    .second-text--BlogPage{
+        font-size: 2.5rem;
+    }
+    .image--BlogPage{
+        width: auto;
+        height: auto;
+    }
+    .three-cards--BlogPage{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+    .div-h1--ContactUs{
+        padding-top: 9rem;
+        padding-bottom: 5rem;
+    }
+    .div-form--ContactUs{
+        padding: 0rem;
+        margin: 0rem 1rem;
+    }
+    .second-div--ContactUs{
+    margin: 0rem;
+    margin: 2rem 1rem;
+    }
+    .form--ContactUs{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .main-div--ContactUs{
+     padding: 0rem;
+     margin: 0rem;
+     padding-bottom: 9rem;
+    }
+    .text--OurWork,
+    .second-text--TabsSection,
+    .text--ReadBlog{
+        font-size: 2.5rem;
+    }
+  .main-div--TabsSection > .el-tabs .el-tabs__nav-prev{
+    left: 0.5rem;
+  }
+  .main-div--TabsSection > .el-tabs .el-tabs__nav-next{
+    right: 0.5rem;
+  }
+  .main-div--TabsSection > .el-tabs .el-tabs__nav-wrap .el-tabs__nav-scroll{
+    padding-top: 0.5rem;
+   }
+   .first-tab--TabsSection,
+   .second-div--TabsSection,
+   .third-div--TabsSection,
+   .fourth-div--TabsSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+   }
+   .image--ReadBlog{
+    height: auto;
+    width: auto;
+   }
+   .second-text--ReadBlog{
+    margin: 0rem 1rem;
+   }
+   .main-div--ReadCaseStudies{
+    padding: 0rem;
+   }
+   .second-text--ReadCaseStudies{
+    margin: 0rem 1rem;
+   }
+   .text--ReadCaseStudies{
+    font-size: 2.5rem;
+    margin: 0rem 1rem;
+   }
+   .third-text--ReadCaseStudies{
+    margin: 0rem 1rem;
+    margin-bottom: 2.5rem;
+   }
+   .border--ReadCaseStudies{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+   }
+   .second-div--ReadCaseStudies{
+    margin: 0rem;
+    padding: 0rem;
+    padding-bottom: 9rem;
+   }
+   .ul--ReadCaseStudies{
+    margin:0rem 2.25rem;
+   }
+   .div--ReadCaseStudies > .el-tabs .el-tabs__nav-prev{
+    left: 0.5rem;
+   }
+   .div--ReadCaseStudies > .el-tabs .el-tabs__nav-next{
+    right: 0.5rem;
+   }
+   .div--ReadCaseStudies >  .el-tabs .el-tabs__nav-wrap .el-tabs__nav-scroll{
+    padding-top: 0.5rem;
+   }
+   .text-ReadCaseStudiesTabsItem{
+    font-size: 2.5rem;
+   }
+   .text-OurProjectSection{
+    font-size: 1.5rem;
+   }
+   .icon--OurProjectSection{
+    display: flex;
+    text-align: right;
+    gap:0.2rem;
+   }
+   .div--OurProjectSection{
+    margin:0rem 1rem
+   }
+   .second-div--OurProjectSection{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+   }
+   .image--OurProject{
+    height: 16.681rem;
+    width: auto;
+   }
+   .image-text--OurProjectSection{
+    height: 16.681rem;
+    gap:1rem;
+    width: 100%;
+    padding: 1rem 2rem;
+   }
+   .text--OurProjectSection{
+    font-size: 1.125rem;
+   }
+   .second-text--OurProjectSection{
+    font-size: 1rem;
+   }
+   .icon-div--OurProjectSection{
+    font-size: 1rem;
+   }
+   .second-image--OurProject{
+    height: 16.414rem;
+    width: auto;
+   }
+   .second-image-text--OurProjectSection{
+    padding: 1rem 2rem;
+    gap:1.5rem;
+    height: 16.414rem;
+    width: 100%;
+   }
+   .third-image--OurProject{
+    height: auto;
+    width: auto;
+   }
+   .div-collapse--AskQuestionSection{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+   }
+   .collapse-text--AskQuestionSection{
+    margin-left: 1rem;
+    margin-right: 1rem;
+   }
+   .main-div-collapse--AskQuestionSection{
+    margin: 0rem 0.5rem
+   }
+   .collapse-span--AskQuestionSection{
+    padding-left: 0rem;
+   }
+   .second-text--AskQuestionSection{
+    text-align: center;
+    font-size: 1rem;
+   }
+   .text-photo-div--AskQuestionSection{
+    display: flex;
+    flex-direction: column;
+   }
+   .image--AskQuestionSection{
+    height: 25rem ;
+    width: auto;
+   }
+   .text-bg--AskQuestionSection{
+    height: 25rem;
+    width: 100%;
+   }
+   .third-text--AskQuestionSection{
+    top: 0rem;
+    height: 24.688rem;
+    width: 100%;
+    margin:0rem;
+    padding: 2.5rem 1rem;
+    gap:1rem;
+    justify-content: end;
+   }
+   .text-title--AskQuestionSection{
+    font-size: 1.25rem;
+   }
+   .form-bg--AskQuestionSection{
+    width: auto;
+    height: 38rem;
+   }
+   .main-form--AskQuestionSection{
+    gap:0.7rem;
+    margin:0rem; 
+    padding: 2rem 1.5rem;
+    top:0rem;
+   }
+   .Form--AskedQuestionSection{
+    gap:0.7rem;
+   }
+   .three-cards--AskedQuestionSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1rem;
+    margin-top: 4rem;
+   }
+   .second-title--AskedQuestionSection{
+    margin: 0rem 1rem;
+   }
+   .main-div--Footer{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 0rem;
+    margin: 0rem;
+   }
+   .main-text-div--Footer{
+    gap:1rem;
+    padding-top: 2rem;
+   }
+   .text-margin--Footer{
+    margin: 0rem 1rem;
+   }
+   .text--Footer{
+    margin-top: 1.5rem;
+    padding: 1rem 1rem;
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+   }
+   .icon--Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .ul--Footer{
+    display: none;
+   }
+   .div-text-Footer{
+    margin-left: auto;
+   }
+   
+  
+}
+
+@media (min-width: 401px) and (max-width: 800px){
+    .four-people-cards--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:1rem;
+    }
+      .second-div--HomePage{
+        display: flex;
+        padding-left:1rem;
+        padding-right: 1rem;
+        gap:4rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image--HomePage{
+        height: auto;
+        width: auto;
+    }
+     .div--HomeWeWorkSection{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        margin-left: 1rem;
+        gap:4rem
+    }
+    .second-div--HomeWeWorkSection{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:2rem;
+        padding-right: 5rem;
+       
+    }
+    .card--FeaturesSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-div--FeaturesSection{
+        margin: auto;
+    }
+    .div--AboutUsSection{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 9rem;
+        
+    }
+    .carousel--AboutUsSection{
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+    .second-text--AboutUsSection{
+        font-size: 1.5rem;
+    }
+    .text--FeaturesSection{
+        line-height: 3.8rem;
+    }
+    .div-AboutUs{
+        display: flex;
+        flex-direction: column;
+        gap:3rem;
+        margin:0rem 1rem
+    }
+    .main-div--AboutUs{
+       margin: 0rem 0rem;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .two-cards--AboutUs{
+        display: flex;
+        flex-direction: column;
+        gap:2rem
+    }
+    .second-div--AboutUs{
+        margin-right:  1rem;
+        margin-left:  1rem;
+        padding-bottom: 9rem;
+    }
+    .four-cards--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .third-div--AboutUs{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .fourth-div--AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .fifth-div--AboutUs{ 
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        margin-top: 9rem;
+    }
+    .margin-text--AboutUs{
+        margin-left: 0rem;
+    }
+    .three-cards--ThreeCards{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-logos-div--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-right:  1rem;
+         margin-left:  1rem;
+     }
+     .div-from-logos--AboutUs{
+        justify-items: center;
+        align-items: center;
+     }
+    .div--Features{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap:4rem;
+    }
+
+    .btn--Features{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image--Features{
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    .second-div--Features{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .text-Features{
+        margin: 0rem 1rem
+    }
+    .description--Features{
+        margin: 0rem 1rem;
+    }
+    .div-from-logos--Features{
+        justify-items: center;
+        align-items: center;
+    }
+    .space-div--Features{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        gap:4rem;
+    }
+    .second-space-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .collapse-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Features{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .main-div-collapse--Features{
+      margin: 0rem 0.5rem
+    }
+    .collapse-span--Features{
+        padding-left: 0rem;
+        
+    }
+    .second-text--Features{
+    text-align: center;
+    font-size: 1rem;
+    }
+    .title--Pricing{
+        margin: 0rem 0.5rem;
+    }
+    .description-Pricing{
+        margin: 0rem 1rem;
+    }
+    .three-cards--Pricing{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .flex-div--Pricing{
+        justify-items: center;
+        align-items: center;    
+    }
+    .collapse-div--Pricing{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Pricing{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .main-div-collapse--Pricing{
+        margin: 0rem 0.5rem
+    }
+    .collapse-span--Pricing{
+        padding-left: 0rem;
+    }
+    .second-text--Pricing{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .text--PrivacyPolicy{
+        margin: 0rem 1rem;
+    }
+    .image--BlogPage{
+        width: auto;
+        height: auto;
+    }
+    .third-text--BlogPage{
+        margin: 0rem 1rem;
+    }
+    .three-cards--BlogPage{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:1.5rem;
+        margin: 2.5rem 1rem;
+    }
+    .div-h1--ContactUs{
+        padding-top: 9rem;
+        padding-bottom: 5rem;
+    }
+    .div-form--ContactUs{
+        padding: 0rem;
+        margin: 0rem 2rem;
+    }
+    .second-div--ContactUs{
+    margin: 0rem;
+    margin: 2rem 1rem;
+    }
+    .form--ContactUs{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .main-div--ContactUs{
+     padding: 0rem;
+     margin: 0rem;
+     padding-bottom: 9rem;
+    }
+    .second-text--OurWork{
+        margin: 0rem 0.5rem;
+    }
+    .main-div--TabsSection > .el-tabs .el-tabs__nav-prev{
+        left: 0.5rem;
+    }
+      .main-div--TabsSection > .el-tabs .el-tabs__nav-next{
+        right: 0.5rem;
+    }
+      .main-div--TabsSection > .el-tabs .el-tabs__nav-wrap .el-tabs__nav-scroll{
+        padding-top: 0.5rem;
+    }
+       .first-tab--TabsSection,
+       .second-div--TabsSection,
+       .third-div--TabsSection,
+       .fourth-div--TabsSection{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+       .image--ReadBlog{
+        height: auto;
+        width: auto;
+    }
+       .second-text--ReadBlog{
+        margin: 0rem 1rem;
+    }
+       .ul--ReadCaseStudies{
+        margin:0rem 2.25rem;
+    }
+       .main-div--ReadCaseStudies{
+        padding: 0rem;
+    }
+       .second-text--ReadCaseStudies{
+        margin: 0rem 1rem;
+    }
+       .text--ReadCaseStudies{
+        font-size: 2.5rem;
+        margin: 0rem 1rem;
+    }
+       .third-text--ReadCaseStudies{
+        margin: 0rem 1rem;
+        margin-bottom: 2.5rem;
+    }
+       .border--ReadCaseStudies{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+       .second-div--ReadCaseStudies{
+        margin: 0rem;
+        padding: 0rem;
+        padding-bottom: 9rem;
+    }
+       .ul--ReadCaseStudies{
+        margin:0rem 2.25rem;
+    }
+       .div--ReadCaseStudies > .el-tabs .el-tabs__nav-prev{
+        left: 0.5rem;
+    }
+       .div--ReadCaseStudies > .el-tabs .el-tabs__nav-next{
+        right: 0.5rem;
+    }
+       .div--ReadCaseStudies >  .el-tabs .el-tabs__nav-wrap .el-tabs__nav-scroll{
+        padding-top: 0.5rem;
+    }
+       .text-ReadCaseStudiesTabsItem{
+        font-size: 2.5rem;
+    }
+       .main-div--Footer{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        padding: 0rem;
+        padding-top: 3rem;
+        margin: 0rem;
+    }
+       .main-text-div--Footer{
+        gap:1rem;
+        padding-top: 2rem;
+    }
+       .text-margin--Footer{
+        margin: 0rem 1rem;
+    }
+       .icon--Footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+       .text--Footer{
+        margin-top: 1.5rem;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        gap:4rem;
+    }
+    .div-text-Footer{
+        margin-left: auto;
+    }
+    .ul--Footer{
+        display: none;
+    }
+       .text-OurProjectSection{
+        font-size: 1.5rem;
+    }
+       .second-div--OurProjectSection{
+        display: flex;
+        flex-direction: column;
+        gap:3rem;
+    }
+       .div--OurProjectSection{
+        margin:0rem 1rem
+    }
+       .image--OurProject{
+        height: 27rem;
+        width: auto;
+    }
+        .image-text--OurProjectSection{
+        height: 27rem;
+        gap:1rem;
+        width: 100%;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+    }
+       .second-image-text--OurProjectSection{
+        height: 22rem;
+        width: 100%;
+    }
+       .second-image--OurProject,
+       .third-image--OurProject{
+        height: 22rem;
+    }
+       .text-photo-div--AskQuestionSection{
+        display: flex;
+        flex-direction: column;
+    }
+       .text-bg--AskQuestionSection{
+        width: 100%;
+    }
+       .third-text--AskQuestionSection{
+        height: 24.688rem;
+        width: 100%;
+        margin:0rem;
+        padding: 2.5rem 1rem;
+        gap:1rem;
+    }
+    .form-bg--AskQuestionSection{
+        width: auto;
+    }
+       .main-form--AskQuestionSection{
+        gap:0.7rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: 2rem 1rem;
+        top: 4.5rem;
+    }
+    .div-collapse--AskQuestionSection{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+       }
+       .collapse-text--AskQuestionSection{
+        margin-left: 1rem;
+        margin-right: 1rem;
+       }
+       .main-div-collapse--AskQuestionSection{
+        margin: 0rem 0.5rem
+       }
+       .collapse-span--AskQuestionSection{
+        padding-left: 0rem;
+       }
+       .second-text--AskQuestionSection{
+        text-align: center;
+        font-size: 1rem;
+       }
+       .three-cards--AskedQuestionSection{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1rem;
+        margin-top: 4rem;
+       }
+       .second-title--AskedQuestionSection{
+        margin: 0rem 1rem;
+       }
+       .image--AskQuestionSection{
+        width: 100%;
+       }
+}
+
+@media(min-width:801px) and (max-width:1280px){
+    .container{
+        max-width: 100%;
+    }
+    .second-div--HomePage{
+        display: flex;
+        padding-left:1rem;
+        padding-right: 1rem;
+        gap:4rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image--HomePage{
+        height: auto;
+        width: auto;
+    }
+     .div--HomeWeWorkSection{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        margin-left: 1rem;
+        gap:4rem
+    }
+    .second-div--HomeWeWorkSection{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap:2rem;
+        padding-right: 5rem;
+        margin-left:auto;
+        margin-right: auto;
+    } 
+    .card--FeaturesSection{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 1rem 1rem;
+    }
+    .div--AboutUsSection{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1.5rem;
+        margin-left:  1rem;
+        padding-bottom: 10rem;
+    }
+    .carousel--AboutUsSection{
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+    .second-text--AboutUsSection{
+        font-size: 1.5rem;
+    }
+    .div-AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        gap:3rem;
+    }
+    .second-div--AboutUs{
+        margin-right:  1rem;
+        margin-left:  1rem;
+        padding-bottom: 6rem;
+    }
+    .two-cards--AboutUs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2rem
+    }
+    .h1--AboutUs{
+        display: flex;
+        justify-content: center;
+    }
+    .third-div--AboutUs{
+        padding-top: 6rem;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .second-text--AboutUs{
+        font-size: 2.5rem;
+    }
+    .four-cards--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .fourth-div--AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+
+    }
+    .fifth-div--AboutUs{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+    }
+    .three-cards--ThreeCards{
+        margin:0rem 1rem;
+    }
+    .main-logos-div--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-right:  1rem;
+         margin-left:  1rem;
+     }
+     .div-from-logos--AboutUs{
+        justify-items: center;
+        align-items: center;
+     }
+     .four-people-cards--AboutUs{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap:1rem;
+    }
+    .div--Features{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap:4rem;
+    }
+    .text-Features{
+        margin-left: 0.5rem;
+        font-size: 2.5rem;
+    }
+    .description--Features{
+        margin-left: 0.5rem;
+    }
+    .btn--Features{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image--Features{
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    .second-div--Features{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .space-div--Features{
+        display: flex;
+        flex-direction: column;
+        margin-right:  1rem;
+        margin-left:  1rem;
+        gap:4rem;
+    }
+    .second-space-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .third-text--Features{
+        text-align: center;
+    }
+    .div-from-logos--Features{
+        justify-items: center;
+        align-items: center;
+    }
+    .collapse-div--Features{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Features{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    .main-div-collapse--Features{
+      margin: 0rem 0.5rem
+    }
+    .collapse-span--Features{
+        padding-left: 0rem;
+        
+    }
+    .second-text--Features{
+    text-align: center;
+    font-size: 1.5rem;
+    }
+    .three-cards--Pricing{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 4rem 1rem;
+    }
+    .collapse-div--Pricing{
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+    }
+    .collapse-text--Pricing{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .main-div-collapse--Pricing{
+        margin: 0rem 0.5rem
+    }
+    .collapse-span--Pricing{
+        padding-left: 0rem;
+    }
+    .second-text--Pricing{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .text--PrivacyPolicy{
+        margin: 0rem 1rem;
+    }
+    .image--BlogPage{
+        width: auto;
+        height: auto;
+    }
+    .three-cards--BlogPage{
+        margin: 2.5rem 1rem;
+    }
+    .div-form--ContactUs{
+        margin: 5rem 0rem;
+    }
+    .main-div--ContactUs{
+        padding: 9rem 3rem;
+    }
+    .second-div--ContactUs{
+        margin:3rem;
+    }
+    .first-tab--TabsSection,
+    .second-div--TabsSection,
+    .third-div--TabsSection,
+    .fourth-div--TabsSection{
+        margin: 0rem 1rem;
+    }
+    .div--ReadCaseStudies >  .el-tabs .el-tabs__nav-wrap .el-tabs__nav-scroll{
+        padding-top: 0.5rem;
+    }
+    .div-ul--Footer{
+        padding: 2rem 1.5rem;
+    }
+    .second-div--OurProjectSection{
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 1.5rem;
+        gap:3rem;
+    }
+       .div--OurProjectSection{
+        margin: 0rem 1rem;
+    }
+       .image--OurProject{
+        height: 37rem;
+        width: auto;
+    }
+        .image-text--OurProjectSection{
+        height: 37rem;
+        gap:1rem;
+        width: 50%;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+    }
+       .second-image-text--OurProjectSection{
+        height: 37rem;
+        width: 50%;
+    }
+       .second-image--OurProject,
+       .third-image--OurProject{
+        height: 37rem;
+    }
+       .text-photo-div--AskQuestionSection{
+        display: flex;
+        flex-direction: column;
+       }
+       .image--AskQuestionSection,
+       .text-bg--AskQuestionSection{
+        width: 100%;
+    }
+    .form-bg--AskQuestionSection{
+        width: 100%;
+    }
+    .div-collapse--AskQuestionSection{
+       padding-left: 1rem;
+       padding-right: 1rem;
+    }
+    .second-text--AskQuestionSection{
+        text-align: center;
+    }
+    .collapse-span--AskQuestionSection{
+        padding-left: 1rem;
+    }
+    .second-title--AskedQuestionSection{
+        margin: 0rem 1rem;
+    }
+    .three-cards--AskedQuestionSection{
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+    .main-div--Footer{
+        gap:4rem;
+        margin: 0rem 1rem;
+    }
+    .text--Footer{
+        padding-right: 2rem;
+    }
+}
+
+@media(min-width:1281px) and (max-width:1536px){
+    .second-image-text--OurProjectSection{
+        width:25.409rem;
+    }
+    .text-bg--AskQuestionSection{
+        width: 40rem;
+    }
+}
+
+@media(max-width:1024px){
+    #header {
+        position: absolute;
+        top: 2.5rem;
+        right: 2rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+      }
+    
+        #header::before {
+          content: "";
+          position: absolute;
+          width: 1.563rem;
+          height: 0.2rem;
+          background: #fff;
+          transform: translateY(-0.625rem);
+          transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+      
+        #header::after {
+          content: "";
+          position: absolute;
+          width: 1.563rem;
+          height: 0.2rem;
+          background: #fff;
+          box-shadow: 0 0.625rem 0 0;
+          color: #fff;
+          transition: 0.4s;
+        }
+    
+      .active#header::before {
+        transform: rotate(45deg);
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+      }
+    
+      .active#header::after {
+        transform: rotate(-45deg);
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        box-shadow: none;
+      }
+    
+      #menu {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100vh;
+        background: var(--purple);
+        z-index: 10;
+        padding-top: 1rem;
+      }
+      #menu ul {
+        position: relative;
+        margin-top: 3.125rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        height: auto;
+      }
+      #menu ul li {
+        list-style: none;
+        color: white;
+        padding: 15px 40px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .active#menu {
+        left: 0;
+      }
+      #menu.active::after {
+        font-size: 0rem;
+      }
+      .p--Header{
+        border: none;
+      }
+}
