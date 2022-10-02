@@ -89,9 +89,9 @@ const validateEmail = (rule: any, value: any, callback: any) => {
   if (value === "") {
     callback(new Error("Please input the email"));
   } else if (value.indexOf("@") == -1) {
-    callback(new Error("Please input correct adress"));
+    callback(new Error("Please input correct address"));
   } else if (value.indexOf(".") == -1) {
-    callback(new Error("Please input correct adress"));
+    callback(new Error("Please input correct address"));
   } else {
     callback();
   }
