@@ -238,22 +238,23 @@ const screens = [
                   class="text--AboutUs flex gap-6 text-white text-[1.5rem] absolute z-10 bottom-[10%] left-[50%]"
                 >
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.youtube.com/"
                     target="_blank"
-                    class="hover:text-[#385899]"
-                    ><font-awesome-icon
+                    class="hover:text-[#ff0000]"
+                  >
+                    <font-awesome-icon
+                      icon="fa-brands fa-youtube"
                       class="cursor-pointer"
-                      icon="fa-brands fa-facebook"
                   /></a>
 
                   <a
-                    href="https://twitter.com/"
+                    href="https://www.youtube.com/"
                     target="_blank"
-                    class="hover:text-[#1d9bf0]"
+                    class="hover:text-[#ff0000]"
                   >
                     <font-awesome-icon
+                      icon="fa-brands fa-youtube"
                       class="cursor-pointer"
-                      icon="fa-brands fa-twitter"
                   /></a>
 
                   <a

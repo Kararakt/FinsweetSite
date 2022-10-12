@@ -36,29 +36,31 @@ import { func } from "../Function/helperfunction";
             </div>
             <div class="flex gap-5 text-[1.8rem] icon--Footer">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.youtube.com/"
                 target="_blank"
-                class="hover:text-[#385899]"
-                ><font-awesome-icon
+                class="hover:text-[#ff0000]"
+              >
+                <font-awesome-icon
+                  icon="fa-brands fa-youtube"
                   class="cursor-pointer"
-                  icon="fa-brands fa-facebook"
               /></a>
               <a
-                href="https://twitter.com/"
+                href="https://www.invisionapp.com/"
                 target="_blank"
-                class="hover:text-[#1d9bf0]"
-                ><font-awesome-icon
-                  class="cursor-pointer"
-                  icon="fa-brands fa-twitter"
-              /></a>
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="hover:text-[#ff00d4]"
+                class="hover:text-[#ff0066]"
               >
                 <font-awesome-icon
                   class="cursor-pointer"
-                  icon="fa-brands fa-instagram"
+                  icon="fa-brands fa-invision"
+              /></a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="hover:text-[#ff0000]"
+              >
+                <font-awesome-icon
+                  icon="fa-brands fa-youtube"
+                  class="cursor-pointer"
               /></a>
               <a
                 href="https://www.invisionapp.com/"
